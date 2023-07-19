@@ -311,17 +311,28 @@ footer{
     nav, nav ul, .grid-start, .relative-section {
         flex-direction: column;
     }
+    nav{
+        box-shadow: none;
+        box-shadow: none;
+        width: 100%;
+        margin-left: 258px;
+    }
     nav ul{
         margin-top: 20px;
     }
      .header-section{
         flex-direction: column-reverse;
-        background-image:none ;
+    background-image: none;
+    width: 100%;
+    position: relative;
+    left: 343px;
     } 
     .header-left{
         margin: 50px auto;
         background-image: url(images/Group\ 14.png);
         padding: 50px 50px;
+        position: relative;
+        left: 106px;
     }
     .grids > p{
         text-align: center;
@@ -361,17 +372,28 @@ footer{
     nav, nav ul, .grid-start, .relative-section {
         flex-direction: column;
     }
+    nav{
+        box-shadow: none;
+        box-shadow: none;
+        width: 100%;
+        margin-left: 258px;
+    }
     nav ul{
         margin-top: 20px;
     }
      .header-section{
         flex-direction: column-reverse;
-        background-image:none ;
+    background-image: none;
+    width: 100%;
+    position: relative;
+    left: 343px;
     } 
     .header-left{
         margin: 50px auto;
         background-image: url(images/Group\ 14.png);
         padding: 50px 50px;
+        position: relative;
+        left: 106px;
     }
     .grids > p{
         text-align: center;
