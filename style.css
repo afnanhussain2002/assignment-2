@@ -153,19 +153,22 @@ margin-top: 20px;
     background-color: var(--gradian);
     border: none;
     cursor: pointer;
+
 }
+/* main  section styles */
+/* hover effect on img start */
 .hover-text {
     position: absolute;
     top: 970px;
     bottom: 0;
     left: 371px;
     right: 0;
-    height: 378px;
-    width: 328px;
+    height: 402px;
+    width: 320px;
     opacity: 0;
     transition: .5s ease;
     background-color: #0f0004;
-    border-radius: 50px;
+    border-radius: 25px;
   }
   .text {
     color: white;
@@ -181,12 +184,13 @@ margin-top: 20px;
   .hover-image{
     display: block;
     width: 100%;
-    height: auto;
+    height: 405px;
   }
   .container:hover .hover-text {
-    opacity: .20;
+    opacity: 0.8;
   }
-/* main  section styles */
+  /* hover effect on img end */
+
 
 
 /* Responsive layout */
