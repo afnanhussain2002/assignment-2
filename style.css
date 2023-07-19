@@ -330,9 +330,9 @@ footer{
     .header-left{
         margin: 50px auto;
         background-image: url(images/Group\ 14.png);
-        padding: 50px 50px;
-        position: relative;
-        left: 106px;
+        padding: 92px 120px;
+    position: relative;
+    left: 64px;
     }
     .grids > p{
         text-align: center;
@@ -360,13 +360,31 @@ footer{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
-    
-     /* main {
+    .relative-l-side h2 {
         width: 100%;
-      }
-      .footer-section {
-        padding: 50px 20px; 
-      }  */
+        text-align: center;
+    }
+    .relative-l-side p {
+        width: 400px;
+        text-align: center;
+    }
+    footer {
+        background-color: #0B0223;
+        padding: 0;
+        width: 1440px;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+    .last-ul{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 10px;
+    }
+    
+    
 }
 @media screen and (min-width:576px) and (max-width:800px) {
     nav, nav ul, .grid-start, .relative-section {
@@ -376,7 +394,7 @@ footer{
         box-shadow: none;
         box-shadow: none;
         width: 100%;
-        margin-left: 258px;
+        margin-left: 103px;
     }
     nav ul{
         margin-top: 20px;
@@ -411,15 +429,45 @@ footer{
     .header-left{
         margin: 50px auto;
         background-image: url(images/Group\ 14.png);
-        padding: 50px 50px;
+        padding: 92px 120px;
+    position: relative;
+    left: 64px;
     }
     .grids > p{
         text-align: center;
         font-size: 14px;
     }
+    .hover-text {
+        position: absolute;
+        top: 2795px;
+        bottom: 0;
+        left: 540px;
+        right: 0;
+        height: 394px;
+        width: 335px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #0f0004;
+        border-radius: 25px;
+    }
     .inner-img {
         position: absolute;
         top: 4196px;
         right: 185px;
+    }
+    footer {
+        background-color: #0B0223;
+        padding: 0;
+        width: 1440px;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+    .last-ul{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 10px;
     }
 }
