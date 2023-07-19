@@ -359,6 +359,7 @@ footer{
     .btns-div{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        row-gap:10px;
     }
     .relative-l-side h2 {
         width: 100%;
