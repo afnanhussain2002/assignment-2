@@ -64,13 +64,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 38px 0;
+    padding: 38px 240px;
     background-color: white;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.menu{
-    max-width: 1440px; 
-}
+
 .logo{
     display: flex;
     align-items: center;
@@ -164,7 +162,7 @@ font-weight: 500;
 }
 .hover-text {
     position: absolute;
-    top: 970px;
+    top: 1022px;
     bottom: 0;
     left: 371px;
     right: 0;
@@ -334,16 +332,30 @@ footer{
         top: 4196px;
         right: -138px;
     }
+    .hover-text {
+        position: absolute;
+        top: 2736px;
+        bottom: 0;
+        left: 542px;
+        right: 0;
+        height: 394px;
+        width: 335px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #0f0004;
+        border-radius: 25px;
+    }
     .btns-div{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
-    main {
+    
+     /* main {
         width: 100%;
       }
       .footer-section {
         padding: 50px 20px; 
-      }
+      }  */
 }
 @media screen and (min-width:576px) and (max-width:800px) {
     nav, nav ul, .grid-start, .relative-section {
