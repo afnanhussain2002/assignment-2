@@ -456,6 +456,14 @@ footer{
         top: 4196px;
         right: 185px;
     }
+     .relative-l-side h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .relative-l-side p {
+        width: 400px;
+        text-align: center;
+    }
     footer {
         background-color: #0B0223;
         padding: 0;
